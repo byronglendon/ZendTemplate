@@ -1,0 +1,271 @@
+### General Entries
+### This is entries that appear in more than one place
+### ------------------------------------------------------------
+
+Action;Action
+Edit;Edit
+GroupID;GroupID
+Group Name;Group Name
+
+### Terminal entries
+### ----------------
+
+TerminalID;TerminalID
+Terminal Name;Terminal Name
+Serial Number;Serial Number
+Submit;Submit
+Terminal;Terminal
+Terminal Details;Terminal Details
+Terminal Group;Terminal Group
+Groups;Groups
+Connect Group;Connect Group
+Transaction List Group;Transaction List Group;
+Prompts Group;Prompts Group
+Product Group;Product Group
+Terminal Setup;Terminal Setup
+Setup;Setup
+Download Name;Download Name
+Download Version;Download Version
+Download Release;Download Release
+Manager PIN;Manager PIN
+Supervisor PIN;Supervisor PIN
+SIMPIN;SIMPUK
+SIMPIN;SIMPIN
+Printer Setup;Printer Setup
+Printer;Printer
+Header Text;Header Text
+Body Text;Body Text
+Trailer Text;Trailer Text
+Add Terminal;Add Terminal
+Terminal (Edit) : %1$s;Terminal (Edit) : %1$s
+Terminal List;Terminal List
+TerminalID already exist. TerminalID: %1$d;TerminalID already exist. TerminalID: %1$d
+Terminal Edited successfully;Terminal Edited successfully
+
+### Logo entries
+### ----------------
+
+Image:Image
+When loading a logo please keep the following in mind:;When loading a logo please keep the following in mind:
+Logo must be a monochrome bitmap;Logo must be a monochrome bitmap
+Logo filename must be in the format of 'Logoxxx.bmp' where xxx is the logo number;Logo filename must be in the format of 'Logoxxx.bmp' where xxx is the logo number
+Logo size must not exceed 500kB;Logo size must not exceed 500kB
+Logo width in pixels must dividable by 32;Logo width in pixels must dividable by 32
+Logo width is maximum 384 pixels;Logo width is maximum 384 pixels
+Logo must be flipped vertically and horizontally;Logo must be flipped vertically and horizontally
+Logo colors must be inverted;Logo colors must be inverted;Logo colors must be inverted;Logo colors must be inverted
+If you want to change a current logo, upload the new image with the same name;If you want to change a current logo, upload the new image with the same name
+Upload logo image;Upload logo image
+
+### Connect Setup entries 
+### ------------------------
+
+Connect Type 1;Connect Type 1
+Connect Type 2;Connect Type 2
+Connect Type 3;Connect Type 3
+Dial Prefix 1;Dial Prefix 1
+Dial Prefix 2;Dial Prefix 2
+Dial Number 1;Dial Number 1;
+Dial Number 2;Dial Number 2
+APN server;APN server
+APN username;APN username
+APN password;APN password
+IP address 1;IP address 1
+IP address 2;IP address 2
+IP Port 1;IP Port 1
+IP Port 2;IP Port 2
+Connect Setup (Add);Connect Setup (Add)
+Connect Setup Group (Edit) : %1$s;Connect Setup Group (Edit) : %1$s
+Connect Setup Groups;Connect Setup Groups
+
+### Added 2009/05/15------------------------
+Maximum Upload Retries;Maximum Upload Retries
+Retry Period;Retry Period
+
+ 
+### Control Setup entries 
+### ------------------------
+
+Batch Threshold;Batch Threshold
+Currency Symbol;Currency Symbol
+User Text;User Text
+Event Flags;Event Flags
+Report options;Report options
+One time logon;One time logon
+Protocol Flags;Protocol Flags
+Batch Options;Batch Options
+Receipt Nr Text;Receipt Nr Text
+Enable Batch Processing;Enable Batch Processing123
+Timer Sessions;Timer Sessions
+Magnetic Cards;Magnetic Cards
+Smart Cards;Smart Cards
+Group by User;Group by User
+Net Total;Net Total
+Suspend;Suspend
+Prevent Transaction Tag;Prevent Transaction Tag
+Control Setup (Add);Control Setup (Add)
+Control Setup (Edit) : %1$s;Control Setup (Edit) : %1$s
+Control Setup Groups;Control Setup Groups
+
+### Product entries 
+### ------------------------
+
+Product Code;Product Code
+Product Type;Product Type
+Unit Type;Unit Type
+Text on one line and number of units on next line;Text on one line and number of units on next line
+Text on one line and amount on next line;Text on one line and amount on next line
+Text on one line and units and amount on next line;Text on one line and units and amount on next line
+Text and units on same line;Text and units on same line
+Unit Prompt;Unit Prompt
+Sell Price;Sell Price
+Benefit;Benefit
+Barcode;Barcode
+Display Text 1;Display Text 1
+Display Text 2;Display Text 2
+Printer Text;Printer Text
+New Price;New Price
+New Date;New Date
+Sort Order;Sort Order
+Products;Products
+Product (Edit);Product (Edit)
+Product (Add);Product (Add)
+
+### Prompts entries 
+### ------------------------
+
+List ID;List ID
+Prompt Number;Prompt Number
+Prompt Type;Prompt Type
+Prompt Code;Prompt Code
+Next ID;Next ID
+User Confirm;User Confirm
+Enter a password;Enter a password
+Date entry YYMMDD;Date entry YYMMDD
+Date entry DDMMYY;Date entry DDMMYY
+Display a selection menu;Display a selection menu
+Filler between 2 subsequent menu selection blocks;Filler between 2 subsequent menu selection blocks
+Get user confirmation;Get user confirmation
+Amount entry;Amount entry
+Text/alphanumeric input;Text/alphanumeric input
+Barcode scanner connected to serial port;Barcode scanner connected to serial port
+Number entry;Number entry
+Get user confirmation;Get user confirmation
+This prompt value is accumulated;This prompt value is accumulated
+Allow supervisor override if entered amount is outside min and/or max value;Allow supervisor override if entered amount is outside min and/or max value
+Require user to enter the same number a second time;Require user to enter the same number a second time
+Print nothing;Print nothing
+Double Height value only;Double Height value only
+Bold value only;Bold value only
+Value only in normal font;Value only in normal font
+Normal label and double height value;Normal label and double height value
+Label and value in bold;Label and value in bold
+Normal label and bold value;Normal label and bold value
+Normal label and normal value;Normal label and normal value
+Default Value;Default Value
+Answer Minimum Value;Answer Minimum Value
+Answer Maximum Value;Answer Maximum Value
+Display Text 1;Display Text 1
+Display Text 2;Display Text 2
+Unit Text;Unit Text
+Printer Text;Printer Text
+Prompt (Add);Prompt (Add)
+Prompt (Edit);Prompt (Edit)
+
+### TranList entries 
+### ------------------------
+
+Transaction Type;Transaction Type
+Transaction Name;Transaction Name
+Prompt ListID;Prompt ListID
+Sort Order;Sort Order
+Menu Name;Menu Name
+Slip Type;Slip Type
+Header Text;Header Text
+Body Text;Body Text
+Trailer Text;Trailer Text
+Merchant Copy;Merchant Copy
+Member Number;Member Number
+Print track 1 on slip;Print track 1 on slip
+Comms error message;Comms error message
+Disable all printing;Disable all printing
+Report sign;Report sign
+Not used;Not used
+Amount added;Amount added
+Amount subtracted;Amount subtracted
+This TranList entry is sub-menu of last one without this bit set;This TranList entry is sub-menu of last one without this bit set
+Payment Method;Payment Method
+Payment Method Selection;Payment Method Selection
+Tender amount entry when 'Cash' selected;Tender amount entry when 'Cash' selected
+Tender amount confirmation and printing of payment method;Tender amount confirmation and printing of payment method
+Print product total;Print product total
+Print product item lines;Print product item lines
+Enable product selection;Enable product selection
+Online Mode;Online Mode
+Logo Number;Logo Number
+Logo Index;Logo Index
+User Auth Method;User Auth Method
+User logon required;User logon required
+Supervisor override allowed;Supervisor override allowed
+Maps to first bit in terminal user access right field;Maps to first bit in terminal user access right field
+Maps to second bit in terminal user access right field;Maps to second bit in terminal user access right field
+Maps to third bit in terminal user access right field;Maps to third bit in terminal user access right field
+Maps to fourth bit in terminal user access right field;Maps to fourth bit in terminal user access right field
+Text ListID;Text ListID
+BIN Identifier;BIN Identifier
+Member Auth Method;Member Auth Method
+Enable/disable member number input on keypad;Enable/disable member number input on keypad
+Enable/disable member card swipe option;Enable/disable member card swipe option
+Enable/disable supervisor logon before manual member number entry;Enable/disable supervisor logon before manual member number entry
+Enable/disable Supervisor override when velocity infringement;Enable/disable Supervisor override when velocity infringement
+Member Prompt1;Member Prompt1
+Member Prompt2;Member Prompt2
+Member Text;Member Text
+Member Mask;Member Mask
+Processor Type;Processor Type
+Insert into Transactions table only, no other processing (record only);Insert into Transactions table only, no other processing (record only)
+Call SQL stored procedure with parameter set 1;Call SQL stored procedure with parameter set 1
+Call SQL stored procedure with parameter set 2;Call SQL stored procedure with parameter set 2
+Send transaction message upstream on Link 1;Send transaction message upstream on Link 1
+Send transaction message upstream on Link 2;Send transaction message upstream on Link 2
+Send transaction message upstream on Link 3;Send transaction message upstream on Link 3
+Send transaction message upstream on Link 4;Send transaction message upstream on Link 4
+Processor Name;Processor Name
+TranList (Add);TranList (Add)
+TranList (Edit);TranList (Edit)
+Tran List Groups;Tran List Groups
+
+### Login entries 
+### ------------------------
+
+Please provide a username;Please provide a username
+Login failed;Login failed
+Log in;Please input login details
+Username;Username
+Password;Password
+Login;Login
+Logout;Logout
+
+### Menu options
+### --------------
+
+Terminals;Terminals
+View Terminals;View Terminals
+Add Terminal;Add Terminal
+Connect Setup;Connect Setup
+View Connect Setup;View Connect Setup
+Add Connect Setup;Add Connect Setup
+Control Setup;Control Setup
+View Control Setup;View Control Setup
+Add Control Setup;Add Control Setup
+Transaction Lists;Transaction Lists
+View Transaction Lists;View Transaction Lists
+Add Transaction List;Add Transaction List
+Prompts;Prompts
+View Prompts;View Prompts
+Add Prompts;Add Prompts
+View Products;View Products
+Add Product;Add Product
+Logos;Logos
+Manage Logos;Manage Logos
+Transactions;Transactions;

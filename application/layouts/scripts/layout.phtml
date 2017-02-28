@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?=$this->headTitle()?>
+<?php 	echo $this->headLink()."\n";
+		if ($this->dojo()->isEnabled()){
+			echo $this->dojo();
+		}	
+		echo $this->headScript()."\n";
+?>
+
+ <link href="<?=$this->baseUrl()?>/styles/styles.css" rel="stylesheet">
+</head>
+
+<body class="tundra">
+<div class="wrapper">
+	<div class="header">
+        <div class="header-tech"><img src="<?=$this->baseUrl()?>/images/header-tech.jpg" width="781" height="115" /></div>
+        <div id="logoutbtn"><a href="<?=$this->baseUrl()?>/Auth/logout"><img src="<?=$this->baseUrl()?>/images/logout-btn.jpg" width="109" height="53" /></a></div>
+  </div>
+  <div class="nav">
+  <!--// MENU //-->
+  </div>
+  <div class="content-container">
+   <!--CONTENT -->
+  	<div class="main-heading"><?=$this->Title?></div>
+	<?= $this->layout()->content ?> 
+  </div>
+</div>  
+<div class="footer">&copy; 2017 Uplink Technologies</div>
+</body>
+</html>
